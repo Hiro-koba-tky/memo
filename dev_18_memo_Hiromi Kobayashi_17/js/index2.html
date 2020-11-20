@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>myMemoPad</title>
+  <link rel='stylesheet' href='css/reset.css'>
+  <link rel="stylesheet" href="css/sample.css">
+
+</head>
+
+<body>
+  <header>
+    <h1>MemoPad</h1>
+  </header>
+  <main>
+    <input type="text" id="key" placeholder="ここにタイトルが入ります">
+    <textarea id="memo" placeholder="ここにテキストが入ります"></textarea>
+    <ul>
+      <li id="save">Save</li>
+      <li id="clear">Clear</li>
+    </ul>
+  </main>
+
+  <div class='memo'>
+    この下にローカルストレージの値が入ってきます↓
+  </div>
+  <ul id="list">
+    <!-- ここに追加データが挿入される -->
+  </ul>
+
+  <footer>
+    <small>memo</small>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/index2.js"></script>
+
+</body>
+
+</html>
+
